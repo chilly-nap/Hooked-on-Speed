@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ef8e3fca-7b0c-4589-bb6b-f399040af9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0a29413d-14e9-41ba-b1ed-0e73898409d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{db0a6fb8-088d-487d-886b-bcc2f34f5a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Player">
+      <UniqueIdentifier>{152bba95-4b23-4deb-bcfa-4479b1e9a165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Map">
+      <UniqueIdentifier>{2c02efb5-253e-4547-91f9-d3682941c982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Background">
+      <UniqueIdentifier>{40338213-1f00-46a6-8ad8-cfb4fb42e3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI">
+      <UniqueIdentifier>{5af61d6f-1323-4c87-8e19-eb680cd73927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Music">
+      <UniqueIdentifier>{996b4994-dcb1-4215-a0f4-e579f496d249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sound Effect">
+      <UniqueIdentifier>{ed371655-eb22-43c4-b1dd-ce77b97d9f82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\AudioManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Hookshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MediaLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\WindowManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RenderGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\AudioManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Hooked On Speed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Hookshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MediaLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WindowManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RenderGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\Player\_Dash.png">
+      <Filter>Resource Files\Player</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Player\_Fall.png">
+      <Filter>Resource Files\Player</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Player\_Idle.png">
+      <Filter>Resource Files\Player</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Player\_Jump.png">
+      <Filter>Resource Files\Player</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Player\_Run.png">
+      <Filter>Resource Files\Player</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_1.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_2.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_3.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_4.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_5.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_6.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_7.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_8.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_9.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_10.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_11.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Layer_12.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Background\Menu.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Assets\Textures\UI\Logo.png">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="Assets\Textures\UI\Spritesheet_UI.png">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="Assets\Textures\UI\UI_set.png">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Tileset\tileset.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Maps\Level1.map">
+      <Filter>Resource Files\Map</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Music\Game_Music.mp3">
+      <Filter>Resource Files\Music</Filter>
+    </Media>
+    <Media Include="Assets\Music\Menu_Music.mp3">
+      <Filter>Resource Files\Music</Filter>
+    </Media>
+    <Media Include="Assets\Sound_Effect\dash_effect.wav">
+      <Filter>Resource Files\Sound Effect</Filter>
+    </Media>
+    <Media Include="Assets\Sound_Effect\jump_effect.mp3">
+      <Filter>Resource Files\Sound Effect</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
